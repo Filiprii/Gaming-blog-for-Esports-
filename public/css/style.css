@@ -1,0 +1,181 @@
+body {
+	font-family: Arial;
+	font-size: 13pt;
+	margin: 0;
+	background-image: url(../images/background.png);
+	font-weight: bold;
+	text-shadow: 0px 1px;
+	color: white;
+	text-decoration-color: purple;
+}
+
+a {
+	text-decoration: none;
+	color: purple;
+}
+textarea {
+	resize: none;
+	display: block;
+}
+above-header {
+	display: block;
+	text-align: right;
+	padding: 0.25em;
+}
+above-header form {
+	display: inline-block;
+	
+}
+header {
+	display: block;
+	height: 8em;
+	background: url(../images/esports-new.png) top left no-repeat;
+	background-size: contain;
+}
+nav {
+	display: block;
+	padding: 0.25em 0;
+	border: 1px solid gray;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	background-image: linear-gradient(silver,white,silver);	
+}
+nav a:not(:last-child) {
+	margin-right: 0.5em;
+	
+}
+article {
+	display: block;
+	padding: 0.5em;
+}
+breadcrumbs {
+	font-size: 0.75em;
+	
+}
+breadcrumbs a:not(:last-child):after {
+	content: " > ";
+}
+error {
+	font-weight: bold;
+	color: red;
+	font-size: 0.75em;
+	margin-bottom: 1em;
+	display: block;
+
+}
+message {
+	color: blue;
+	margin-bottom: 1em;
+	display: block;
+}
+footer {
+	text-align: center;
+	margin-top: 2em;
+	padding: 2em 0;	
+}
+page-login form {
+	text-align: center;
+}
+page-login form  input {
+	display:block;
+	margin: 0 auto;
+
+}
+page-login form  button{
+	margin: 0.25em;	
+}
+page-teams list div.date {
+	font-size: 0.75em;
+}
+page-teams list div.short {
+	font-size: 1em;
+}
+page-teams list h2 {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+page-teams article date {
+	font-size: 0.75em;
+	display: block;
+}
+page-teams article {
+	padding: 0;
+}
+page-teams article full {
+	text-align: justify;
+	margin-top: 1em;
+	display: block;
+}
+page-tours article date {
+	font-size: 0.75em;
+	display: block;
+}
+page-tours article full {
+	display: block;
+	text-align: center;
+}
+page-tours article full img {
+	max-width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+page-users table {
+	width: 100%;
+	border-collapse: collapse;
+}
+page-users table tr:not(:first-child):hover {
+	background: #F0F0F0;
+}
+page-users table td {
+	border: 1px dotted gray;
+	border-left: none;
+	border-right: none;
+}
+page-users table td:first-child,
+page-users table td:last-child {
+	width: 3em;
+	text-align: right;
+	padding-right: .5em;
+}
+page-users table td:nth-child(4) {
+	width: 10em;
+}
+page-users form input {
+	display: block;
+}
+page-users form  button {
+	margin: 0.25em 0;
+	display: block;
+}
+page-users user-profile table tr td:first-child {
+	width: 12em !important;
+}
+page-users user-profile table tr td:last-child {
+	text-align: left;
+	width: auto !important;
+}
+page-contact form input,
+page-contact form textarea,
+page-contact form button  {
+	display: block;
+
+}
+page-contact form input,
+page-contact form textarea {
+	width: 50%;
+
+}
+page-contact form textarea {
+	height: 10em;
+}
+page-home teams,
+page-home tours {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+page-home div {
+	display: inline-block;
+}
